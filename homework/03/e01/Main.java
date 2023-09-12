@@ -1,6 +1,16 @@
+import java.io.Console;  
 
-class Main {
+public class Main {
     public static void main(String [] args) {
-        System.out.println("hello");   
+        Console c = System.console(); 
+        System.out.println("Mikä on nimesi?");
+        String nimi  = c.readLine();
+
+        if(nimi.equals("Jussi")) {
+            System.out.println("Ompa sinulla tylsä nimi XD");
+        
+        }else {
+            System.out.println("Ompa sinulla kiva nimi :)");
+            }
+        }
     }
-}
