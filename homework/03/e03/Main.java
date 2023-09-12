@@ -7,7 +7,7 @@ public class Main {
         String nimi  = c.readLine();
 
         for(int kirjain = 0; kirjain < nimi.length(); kirjain++) {
-            System.out.println(n.charAt(kirjain));
+            System.out.println(nimi.charAt(kirjain));
         }
 
 
