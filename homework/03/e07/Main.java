@@ -14,10 +14,8 @@ public class Main  {
 
             
             nimet = nimet + nimi;  // nimet = "jaskajussikalle" + "lopeta"
-            if(nimi.equals("lopeta") == false){
+            if(!nimi.equals("lopeta")){
                 System.out.println(nimet);
-            }else {
-                break;
             }   
         }
     }
