@@ -10,13 +10,15 @@ public class Main  {
 
         while(!nimi.equals("lopeta")) {       // !"jaska".equals("lopeta") = !false
             System.out.println("Anna nimi");
+            
             nimi = c.readLine();
 
             
             nimet = nimet + nimi;  // nimet = "jaskajussikalle" + "lopeta"
-            if(!nimi.equals("lopeta")){
+        
+                if(!nimi.equals("lopeta")){
                 System.out.println(nimet);
-            }   
+            } 
         }
     }
 }
